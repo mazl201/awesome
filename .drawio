@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-11-17T01:08:23.592Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.106 Safari/537.36" etag="hSMJThrVejqNHq2qgPnf" version="15.7.4" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-17T01:37:53.571Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.106 Safari/537.36" etag="sryAo1tYzRio6MdiUpou" version="15.7.4" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="1038" dy="588" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="716" dy="406" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -51,8 +51,95 @@
             <mxPoint x="520" y="330" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="3rHvlNSOXZrvTMZVnd5Z-1" value="" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="3rHvlNSOXZrvTMZVnd5Z-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="3rHvlNSOXZrvTMZVnd5Z-1" target="3rHvlNSOXZrvTMZVnd5Z-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3rHvlNSOXZrvTMZVnd5Z-1" value="是否存在无法配对的映射关系" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="480" y="290" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="3rHvlNSOXZrvTMZVnd5Z-2" value="yes&lt;br&gt;" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="3rHvlNSOXZrvTMZVnd5Z-1" target="3rHvlNSOXZrvTMZVnd5Z-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="340" as="sourcePoint" />
+            <mxPoint x="620" y="332.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3rHvlNSOXZrvTMZVnd5Z-6" value="no&lt;br&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="3rHvlNSOXZrvTMZVnd5Z-4" target="3rHvlNSOXZrvTMZVnd5Z-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3rHvlNSOXZrvTMZVnd5Z-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="3rHvlNSOXZrvTMZVnd5Z-4" target="3rHvlNSOXZrvTMZVnd5Z-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3rHvlNSOXZrvTMZVnd5Z-4" value="判断映射关系对应的subtask处理器是否必须" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="610" y="290" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="3rHvlNSOXZrvTMZVnd5Z-5" value="&lt;span&gt;使用TaskLog中的实现方法，记录日志&lt;/span&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="610" y="450" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="3rHvlNSOXZrvTMZVnd5Z-7" value="程序启动报错，报错程序缺少必要组件" style="whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="750" y="300" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3rHvlNSOXZrvTMZVnd5Z-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="3rHvlNSOXZrvTMZVnd5Z-9" target="3rHvlNSOXZrvTMZVnd5Z-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3rHvlNSOXZrvTMZVnd5Z-9" value="继续执行程序初始化任务" style="whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="460" y="460" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3rHvlNSOXZrvTMZVnd5Z-12" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="3rHvlNSOXZrvTMZVnd5Z-5" target="3rHvlNSOXZrvTMZVnd5Z-9">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="450" as="sourcePoint" />
+            <mxPoint x="440" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3rHvlNSOXZrvTMZVnd5Z-16" value="no" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="3rHvlNSOXZrvTMZVnd5Z-13" target="3rHvlNSOXZrvTMZVnd5Z-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3rHvlNSOXZrvTMZVnd5Z-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="3rHvlNSOXZrvTMZVnd5Z-13" target="3rHvlNSOXZrvTMZVnd5Z-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3rHvlNSOXZrvTMZVnd5Z-13" value="判断subtask是否实现了相应的接口，确保subtask具备相应的能力" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="480" y="590" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="3rHvlNSOXZrvTMZVnd5Z-18" value="no" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="3rHvlNSOXZrvTMZVnd5Z-15" target="3rHvlNSOXZrvTMZVnd5Z-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3rHvlNSOXZrvTMZVnd5Z-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="3rHvlNSOXZrvTMZVnd5Z-15" target="3rHvlNSOXZrvTMZVnd5Z-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3rHvlNSOXZrvTMZVnd5Z-15" value="判断当前subtask是否必须实现这些接口&lt;br&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="640" y="590" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="3rHvlNSOXZrvTMZVnd5Z-17" value="记录日志" style="whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="620" y="760" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3rHvlNSOXZrvTMZVnd5Z-19" value="程序启动报错，提供报错信息&lt;br&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="780" y="600" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3rHvlNSOXZrvTMZVnd5Z-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="3rHvlNSOXZrvTMZVnd5Z-21" target="3rHvlNSOXZrvTMZVnd5Z-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3rHvlNSOXZrvTMZVnd5Z-21" value="继续执行初始化任务，" style="whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="460" y="760" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3rHvlNSOXZrvTMZVnd5Z-23" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="3rHvlNSOXZrvTMZVnd5Z-17" target="3rHvlNSOXZrvTMZVnd5Z-21">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="520" y="700" as="sourcePoint" />
+            <mxPoint x="570" y="650" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3rHvlNSOXZrvTMZVnd5Z-27" value="yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="3rHvlNSOXZrvTMZVnd5Z-24" target="3rHvlNSOXZrvTMZVnd5Z-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3rHvlNSOXZrvTMZVnd5Z-29" value="no" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="3rHvlNSOXZrvTMZVnd5Z-24" target="3rHvlNSOXZrvTMZVnd5Z-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3rHvlNSOXZrvTMZVnd5Z-24" value="检查线程池状态" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="480" y="890" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="3rHvlNSOXZrvTMZVnd5Z-26" value="结束" style="whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="460" y="1060" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3rHvlNSOXZrvTMZVnd5Z-28" value="启动程序报错" style="whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="620" y="900" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
