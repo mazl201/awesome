@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-11-17T01:37:53.571Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.106 Safari/537.36" etag="sryAo1tYzRio6MdiUpou" version="15.7.4" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-17T02:56:58.240Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.106 Safari/537.36" etag="eZv_0i9RFDgKMOT33DV2" version="15.7.4" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="716" dy="406" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1221" dy="692" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -66,7 +66,7 @@
         <mxCell id="3rHvlNSOXZrvTMZVnd5Z-6" value="no&lt;br&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="3rHvlNSOXZrvTMZVnd5Z-4" target="3rHvlNSOXZrvTMZVnd5Z-5">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="3rHvlNSOXZrvTMZVnd5Z-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="3rHvlNSOXZrvTMZVnd5Z-4" target="3rHvlNSOXZrvTMZVnd5Z-7">
+        <mxCell id="3rHvlNSOXZrvTMZVnd5Z-8" value="yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="3rHvlNSOXZrvTMZVnd5Z-4" target="3rHvlNSOXZrvTMZVnd5Z-7">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="3rHvlNSOXZrvTMZVnd5Z-4" value="判断映射关系对应的subtask处理器是否必须" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
@@ -93,7 +93,7 @@
         <mxCell id="3rHvlNSOXZrvTMZVnd5Z-16" value="no" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="3rHvlNSOXZrvTMZVnd5Z-13" target="3rHvlNSOXZrvTMZVnd5Z-15">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="3rHvlNSOXZrvTMZVnd5Z-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="3rHvlNSOXZrvTMZVnd5Z-13" target="3rHvlNSOXZrvTMZVnd5Z-21">
+        <mxCell id="3rHvlNSOXZrvTMZVnd5Z-22" value="yes&lt;br&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="3rHvlNSOXZrvTMZVnd5Z-13" target="3rHvlNSOXZrvTMZVnd5Z-21">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="3rHvlNSOXZrvTMZVnd5Z-13" value="判断subtask是否实现了相应的接口，确保subtask具备相应的能力" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
